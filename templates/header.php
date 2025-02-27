@@ -5,9 +5,13 @@
 
    <!-- show profile icon after login and hide register , login link -->
     <!-- after click profile show list order box have account link send to account get in route -->
-    <!-- your event link secnd to eventpage get in route -->
+    <!-- your event link send to eventpage get in route -->
     <!-- logout link send to home get page and hide profile and show register link, login link -->
     
+
+    <!-- Organizer role -->
+    <!-- after login role is organizer show menu request -->
+     <!-- after click request menu send to reqEvent_get in route -->
 
 
 
