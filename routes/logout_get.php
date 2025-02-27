@@ -1,0 +1,1 @@
+<!-- send to home get in template and clear session -->
