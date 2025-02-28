@@ -95,8 +95,8 @@
         <span>Bonshai <img src="profile.jpg" alt="Profile" width="30" height="30" style="border-radius: 50%;"></span>
     </div>
     <div class="container">
-        <h2 id="form-header">แบบฟอร์มลงทะเบียนแข่งขันวิ่งมาราธอน</h2>
-        <form action="/register" method="POST">
+       <h2 id="form-header">แบบฟอร์มลงทะเบียนแข่งขันวิ่งมาราธอน</h2>
+        <form action="/EventReg" method="POST">
             <div class="form-row">
                 <div class="form-group">
                     <label>คำนำหน้า</label>
