@@ -6,7 +6,7 @@ function login(String $username, String $password): array|bool
     }
     
     $conn = getConnection();
-    $sql = 'select * from students where email = ? or student_id = ?';
+    $sql = 'select * from customer where email = ? or cid = ?';
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("si", $username, $stdid);
     $stmt->execute();
