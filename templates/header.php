@@ -29,6 +29,22 @@
      <!-- after click request menu send to reqEvent_get in route -->
 
      
+<!-- show section of header -->
+ <!-- have search link box send to searchEvent get in route -->
+  <!-- have register link send to register get in route-->
+   <!-- have login link send to login get in route -->
+
+   <!-- show profile icon after login and hide register , login link -->
+    <!-- after click profile show list order box have account link send to account get in route -->
+    <!-- your event link send to eventpage get in route -->
+    <!-- logout link send to home get page and hide profile and show register link, login link -->
+    
+
+    <!-- Organizer role -->
+    <!-- after login role is organizer show menu request -->
+     <!-- after click request menu send to reqEvent_get in route -->
+
+     
 <html>
 
 <head>
@@ -101,7 +117,7 @@
         if (isset($_SESSION['timestamp'])) {
         ?>
             <a href="/profile" class="<?= (basename($_SERVER['REQUEST_URI']) == 'profile.php') ? 'active' : ''; ?>">ข้อมูลนักเรียน</a>
-            <a href="/courses" class="<?= (basename($_SERVER['REQUEST_URI']) == 'event'.php') ? 'active' : ''; ?>">รายวิชา</a>
+            <a href="/courses" class="<?= (basename($_SERVER['REQUEST_URI']) == 'event.php') ? 'active' : ''; ?>">รายวิชา</a>
             <a href="/logout" class="<?= (basename($_SERVER['REQUEST_URI']) == 'logout.php') ? 'active' : ''; ?>">ออกจากระบบ</a>
         <?php
         } else {
@@ -115,6 +131,12 @@
 
 </body>
 </html>
+
+
+
+
+
+
 
 
 
