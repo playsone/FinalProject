@@ -23,7 +23,7 @@ if (isset($_POST["submit"])) {
 
     if ($stmt->execute()) {
         $_SESSION['success'] = 'ลงทะเบียนสำเร็จ!';
-        renderView('register_get',['data'=>$_POST]);
+        renderView('eventReg_get',['data'=>$_POST]);
         exit();
     } else {
         $_SESSION['error'] = 'เกิดข้อผิดพลาด กรุณาลองใหม่!';
