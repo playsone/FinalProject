@@ -11,7 +11,6 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #0099FF;
-            display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
