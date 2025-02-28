@@ -1,6 +1,8 @@
-<!-- show section of footer -->
-    </body>
-    <footer>
-        <span>Create by us</span>
-    </footer>
-</html>
+     <p>
+            
+             &copy; <?= date('Y') ?>. by Ammanat. by phattadon. by saharat.
+         </p>
+         </footer>
+         </body>
+
+         </html>
