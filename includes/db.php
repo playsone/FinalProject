@@ -13,6 +13,6 @@ function getConnection():mysqli
     return $conn;
 }
 
-require_once DATABASE_DIR . '/authen.php';
+require_once DATABASE_DIR .'/authen.php';
 require_once DATABASE_DIR .'/user.php';
 require_once DATABASE_DIR .'/event.php';
