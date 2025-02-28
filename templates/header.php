@@ -85,6 +85,7 @@
         ?>
             <a href="/profile" class="<?= (basename($_SERVER['REQUEST_URI']) == 'profile.php') ? 'active' : ''; ?>">ข้อมูลนักเรียน</a>
             <a href="/courses" class="<?= (basename($_SERVER['REQUEST_URI']) == 'event.php') ? 'active' : ''; ?>">รายวิชา</a>
+            <a href="/courses" class="<?= (basename($_SERVER['REQUEST_URI']) == 'event.php') ? 'active' : ''; ?>">รายวิชา</a>
             <a href="/logout" class="<?= (basename($_SERVER['REQUEST_URI']) == 'logout.php') ? 'active' : ''; ?>">ออกจากระบบ</a>
         <?php
         } else {
