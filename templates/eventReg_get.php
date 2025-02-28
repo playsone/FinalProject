@@ -2,7 +2,7 @@
 <!-- show form for register in event -->
  <!-- after click submit send to eventReg post in route -->
 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
@@ -139,7 +139,11 @@
                     <input type="text" name="address">
                 </div>
             </div>
-            <button type="submit">ตกลง</button>
+            <a href="/cus_reg_event?cid=<?= $cus_reg_event['cid'] ?>" 
+                class="btn btn-success btn-sm"
+                onclick="return confirm('คุณต้องการลงทะเบียนในวิชา <?= htmlspecialchars($event['e_name']) ?> ใช่หรือไม่?');">
+                 ลงทะเบียน
+             </a>
         </form>
     </div>
 </body>
