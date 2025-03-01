@@ -72,6 +72,15 @@
 
 <body>
 
+<?php
+    $conn = getConnection();
+    $pwd = password_hash("1234", PASSWORD_DEFAULT);
+    $sql = 'UPDATE customer
+           SET     password = "'.$pwd.'"';
+        $result = $conn->query($sql);
+
+?>
+
     <!-- Header Section -->
     <header>
         <h1>ระบบกิจกรรม</h1>

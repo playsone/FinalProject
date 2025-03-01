@@ -4,7 +4,7 @@ function getConnection():mysqli
 {
     $hostname = 'localhost';
     $dbName = 'db_Activity';
-    $username = 'adminEvent';
+    $username = 'admin';
     $password = '1234';
     $conn = new mysqli($hostname, $username, $password, $dbName);
     if ($conn->connect_error) {

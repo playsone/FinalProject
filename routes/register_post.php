@@ -23,7 +23,7 @@
        // register_User($_POST['fname'], $_POST['lname'], $_POST['gender'], $_POST['phone'], $_POST['role'], $_POST['bod'], $_POST['email'],$_POST['pwd'],$_POST['saj'],$_POST['rd']);
         renderView('register_get',['data'=>$_POST]);
         exit();
-    }
+    
     ?>
 
 
