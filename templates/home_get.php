@@ -8,7 +8,7 @@
   <table class="table borderless">
       <tbody>
         <tr>
-          <td></td>
+          <td></td>123
         </tr>
       </tbody>
   </table>
